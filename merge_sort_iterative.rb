@@ -35,6 +35,8 @@ def merge(array, left_position, chunk_size, work_array, compare)
   end
 end
 
+#################################################################################################
+
 def alternative_merge_sort(array, compare = ->(a, b) { a <=> b })
   work_array = Array.new(array.length)
   chunk_size = 1
